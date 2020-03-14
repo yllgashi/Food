@@ -21,7 +21,7 @@
   
   border: 1px   ;
   margin: 2%;
-  widows: 45px;0px;
+  widows: 45px 0px;
   overflow: hidden;
 }
 .item img {
