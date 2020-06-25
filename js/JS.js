@@ -1,6 +1,4 @@
 // Blur of Background image
-
-
 $(function(){
   $(window).scroll(function(){
     var top = $(this).scrollTop();
@@ -9,5 +7,4 @@ $(function(){
       '-webkit-filter': 'blur('+ top/100 +'px)'
     });
   });  
-    
 });

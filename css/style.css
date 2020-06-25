@@ -1,5 +1,3 @@
-
-
 .bg {
 	background-image:url("../content/background.jpg");
 	height: 100vh;
@@ -12,22 +10,20 @@
 }
 
 .headings {
-	color: white;
-
+  color: white;
+  font-size: 30px;
 }
 
 .item {
   position: relative;
-  
   border: 1px   ;
   margin: 2%;
   widows: 45px 0px;
   overflow: hidden;
 }
+
 .item img {
   max-width: 100%;
-  
-
   -moz-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -53,37 +49,35 @@
 }
 
 /*ScrollBar*/
-
-
-
 ::-webkit-scrollbar {
-    width: 10px;
+  width: 10px;
 }
- 
+
 /* Track */
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px; 
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px; 
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    background: #C0C0C0; 
-    -webkit-box-shadow: inset 0 0 6px; 
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #C0C0C0; 
+  -webkit-box-shadow: inset 0 0 6px; 
 }
+
 ::-webkit-scrollbar-thumb:window-inactive {
- background: black;
+  background: black;
 }
 
 .background-image-external {
-    background-image: url(../content/background2.jpg);
-    height: 70vh;
-    position: relative;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: center;
-    background-size:cover;
+  background-image: url(../content/background2.jpg);
+  height: 70vh;
+  position: relative;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-size:cover;
 }
